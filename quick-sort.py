@@ -23,4 +23,4 @@ def quicksort(arr, low, high):
         quicksort(arr, pi + 1, high)
     return arr
 
-print(quicksort([1,3,5,4,6,13,10,9,8,15,17], 0, 10))
+print(quicksort([8, 3, 1, 7, 0, 10, 2], 0, 6))
